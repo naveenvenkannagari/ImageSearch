@@ -1,0 +1,40 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0'
+        classpath 'me.tatarka:gradle-retrolambda:3.3.1'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.4.0'
+        classpath "io.realm:realm-gradle-plugin:4.1.1"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+ext {
+    appVersionName = '1.0'
+    supportLibVersion = '26.1.0'
+    retrofitVersion = '2.1.0'
+    rxandroidVersion = '1.2.1'
+    rxjavaVersion = '1.1.6'
+    retroRxAdapterVersion = '2.1.0'
+    butterKnifeVersion = '8.4.0'
+    daggerVersion = '2.7'
+    javaxVersion = '1.0'
+    picassoVersion = '2.5.2'
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

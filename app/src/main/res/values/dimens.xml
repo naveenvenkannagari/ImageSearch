@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="header_top_margin">15dp</dimen>
+    <dimen name="header_padding">18dp</dimen>
+    <dimen name="header_label_text_size">18dp</dimen>
+    <dimen name="header_top_padding">4dp</dimen>
+    <dimen name="default_search_view_height">48dp</dimen>
+    <dimen name="grid_spacing">2dp</dimen>
+    <dimen name="grid_item_height">100dp</dimen>
+    <dimen name="list_item_height">200dp</dimen>
+    <dimen name="image_default_margin">0.2dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="image_title_text_size">16dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+
+
+
+</resources>
